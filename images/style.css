@@ -4,28 +4,45 @@
    padding: 0;
    box-sizing: border-box;
 }
-#group{
-   display: grid;
-   grid-template-columns: 200px 200px 200px;
-   grid-template-rows: auto auto;
-   column-gap: 200px;
-   row-gap: 10px;
-   margin-left: 10%;
-}
 body{
    background-color: #0d192b;
    font-family: 'Outfit';
-}#chief{
-    display: flex;
 }
-  
-#group2{
-   width: 480px;
-   height: 280px;
-   background-color: #14253d;
+#chief{
    display: flex;
+   justify-content: space-around;
+}
+#group{
+   display: grid;
+   grid-template-columns: 180px 180px 180px;
+   grid-template-rows: auto auto;
+   column-gap: 120px;
+   row-gap: 10px;
+   
+}
+#coloum{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+#group2{
+   width: 450px;
+   height: 240px;
+   background-color: #14253d;
+   border-radius: 15px;
+}
+.head1{
+   display: flex;
+   align-items: center;
    justify-content: space-between;
 }
+.head2{
+   display: flex;
+   align-items: flex-start;
+
+
+}
+
  /* right side */
 .header{
    width: 280px;
